@@ -1,0 +1,47 @@
+/* BlogList.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  ul#blog {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li#blog {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
+  h2 {
+    color: #007bff;
+  }
+  
+  p {
+    color: #555;
+  }
+  
+  /* Responsive design */
+  @media only screen and (max-width: 600px) {
+    li {
+      padding: 10px;
+    }
+  }
+  
